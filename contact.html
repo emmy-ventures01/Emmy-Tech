@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Contact EmmyTech for professional web development, web design, and backend development services."
+    >
+
+    <title>Contact | EmmyTech</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="index.html" class="brand">
+
+                <img
+                    src="https://i.postimg.cc/0Q6gwrqR/IMG-20260828-WA0032.jpg"
+                    alt="EmmyTech Logo"
+                    class="brand-logo"
+                >
+
+                <span>EMMYTECH</span>
+
+            </a>
+
+
+            <nav>
+
+                <ul class="nav-links">
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="service.html">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="active nav-contact">
+                            Contact Me
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =========================
+             CONTACT HERO
+        ========================== -->
+
+        <section class="contact-hero">
+
+            <div class="section-container">
+
+                <p class="section-label">
+                    CONTACT
+                </p>
+
+                <h1>
+                    Let's Start A
+                    <span>Conversation.</span>
+                </h1>
+
+                <p class="contact-hero-description">
+
+                    Have a project, idea, or digital solution in mind?
+                    I'd be glad to hear about it and discuss how we can
+                    bring your idea to life.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT OPTIONS
+        ========================== -->
+
+        <section class="contact-options">
+
+            <div class="section-container contact-options-grid">
+
+
+                <!-- WEBSITE FORM OPTION -->
+
+                <div class="contact-option-card">
+
+                    <div class="contact-option-number">
+                        01
+                    </div>
+
+                    <h2>
+                        Send A Message
+                    </h2>
+
+                    <p>
+
+                        Tell me about your project by completing the form
+                        below. Provide as much information as possible so
+                        I can better understand what you need.
+
+                    </p>
+
+
+                    <!-- FORMSPREE FORM -->
+
+                    <form
+                        action="https://formspree.io/f/mppzzovj"
+                        method="POST"
+                        class="contact-form"
+                    >
+
+
+                        <!-- NAME -->
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <!-- EMAIL -->
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="example@email.com"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <!-- PHONE -->
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter your phone number"
+                            >
+
+                        </div>
+
+
+
+                        <!-- PROJECT TYPE -->
+
+                        <div class="form-group">
+
+                            <label for="project">
+                                Service Interested In
+                            </label>
+
+                            <select
+                                id="project"
+                                name="service"
+                                required
+                            >
+
+                                <option value="">
+                                    Select a service
+                                </option>
+
+                                <option value="Web Development">
+                                    Web Development
+                                </option>
+
+                                <option value="Web Design">
+                                    Web Design
+                                </option>
+
+                                <option value="Backend Development">
+                                    Backend Development
+                                </option>
+
+                                <option value="Other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+
+                        <!-- SUBJECT -->
+
+                        <div class="form-group">
+
+                            <label for="subject">
+                                Subject
+                            </label>
+
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What would you like to discuss?"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <!-- MESSAGE -->
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Tell Me About Your Project
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Describe your idea, project, or what you would like me to help you build..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+
+                        <!-- SUBMIT -->
+
+                        <button
+                            type="submit"
+                            class="contact-submit-button"
+                        >
+                            SEND MESSAGE →
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+
+                <!-- WHATSAPP OPTION -->
+
+                <div class="contact-option-card whatsapp-contact-card">
+
+                    <div class="contact-option-number">
+                        02
+                    </div>
+
+                    <p class="whatsapp-label">
+                        PREFER A QUICKER CONVERSATION?
+                    </p>
+
+                    <h2>
+                        Chat With Me
+                        <span>On WhatsApp.</span>
+                    </h2>
+
+                    <p>
+
+                        You can also contact me directly on WhatsApp for a
+                        faster and more convenient conversation about your
+                        project or digital needs.
+
+                    </p>
+
+
+                    <div class="whatsapp-info">
+
+                        <div class="whatsapp-info-item">
+
+                            <span>
+                                AVAILABLE FOR
+                            </span>
+
+                            <strong>
+                                Project Discussions
+                            </strong>
+
+                        </div>
+
+
+                        <div class="whatsapp-info-item">
+
+                            <span>
+                                RESPONSE
+                            </span>
+
+                            <strong>
+                                As Soon As Possible
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <a
+                        href="https://wa.me/2347030835378?text=Hello%20EmmyTech%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20discuss%20a%20project."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="whatsapp-contact-button"
+                    >
+                        CHAT ON WHATSAPP →
+                    </a>
+
+
+                    <p class="whatsapp-note">
+
+                        Feel free to send a message with details about your
+                        project, idea, or the service you are interested in.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             FINAL CTA
+        ========================== -->
+
+        <section class="contact-final-cta">
+
+            <div class="section-container">
+
+                <p class="section-label">
+                    LET'S BUILD
+                </p>
+
+                <h2>
+                    Great Ideas Deserve
+                    <span>Great Digital Experiences.</span>
+                </h2>
+
+                <p>
+
+                    Whether you are starting with a simple idea or planning
+                    a larger project, I am ready to help transform your
+                    vision into something functional and meaningful.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="main-footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-brand">
+
+                <img
+                    src="https://i.postimg.cc/0Q6gwrqR/IMG-20260828-WA0032.jpg"
+                    alt="EmmyTech Logo"
+                    class="footer-logo"
+                >
+
+                <h3>
+                    EMMYTECH
+                </h3>
+
+                <p>
+                    Building digital experiences and transforming ideas
+                    into reality through technology.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>
+                        Navigation
+                    </h4>
+
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="service.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Expertise
+                    </h4>
+
+                    <span>Web Development</span>
+                    <span>Web Design</span>
+                    <span>Backend Development</span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 EmmyTech. All Rights Reserved.
+            </p>
+
+            <p>
+                Designed & Built by EmmyTech.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
